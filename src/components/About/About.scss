@@ -3,6 +3,7 @@
   color:$color-6;
   p {
     color:$color-6;
+    text-align: justify;
   }
   .heading {
     width: 100%;
@@ -17,6 +18,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
     .content-description {
       padding-right: 30px;
     }
@@ -25,7 +28,7 @@
       margin-bottom: 10px;
     }
     .content-width {
-      width: 50%;
+      width: 100%;
     }
     img {
       max-width: 100%;
