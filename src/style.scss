@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Karla:weight@400;700&display=swap");
+
+$font: "Karla", sans-serif;
+$primary-color: #3e6f9e;
+
+/* PALETA 4
+4. Classic Double Blue Color Scheme
+*/
+
+$color-1: #12232E;
+$color-2: #007CC7;
+$color-3: #4DA8DA;
+$color-4: #203647;
+$color-5: #EEFBFB;
+$color-6: rgb(2, 2, 2);
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+body {
+  font-family: $font;
+  color: $color-5;
+}
+
+section {
+  padding: 100px;
+}
+
+.btn {
+  position: relative;
+  background: $color-2;
+  display: inline-block;
+  color: $color-5;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 1em;
+  text-decoration:none;
+  font-weight: 500;
+  letter-spacing: 2px;
+  cursor: pointer;
+  &:hover{
+    background-color: $color-3;
+  }
+}

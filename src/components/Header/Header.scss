@@ -1,0 +1,43 @@
+@import '../../style.scss';
+
+header .sticky {
+  background: $color-2;
+  padding: 20px 100px;
+  box-shadow: 0 5px 20px rgba(#000000, 0.1);
+}
+ 
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  .logo {
+    color: $color-5;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  ul {
+    position: relative;
+    display: flex;
+    li {
+      position: relative;
+      list-style: none;
+      a {
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        margin: 0 15px;
+        color: $color-5
+      }
+    }
+  }
+}
