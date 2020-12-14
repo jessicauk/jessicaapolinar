@@ -5,7 +5,7 @@ import image from "../../../public/assets/images/coder.svg";
  
 function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="heading">
         <h2>About me</h2>
       </div>
