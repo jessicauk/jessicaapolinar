@@ -24,6 +24,7 @@ $color-6: rgb(2, 2, 2);
 body {
   font-family: $font;
   color: $color-5;
+  min-width: 350px;
 }
 
 section {
