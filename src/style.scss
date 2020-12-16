@@ -27,8 +27,22 @@ body {
   min-width: 350px;
 }
 
-section {
-  /* padding: 100px; */
+.section-heading {
+  text-align: center;
+  h2 {
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 1.5em;
+  }
+  h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  span {
+    color: $color-2;
+    font-size: 1.5em;
+    font-weight: 700;
+  }
 }
 
 .btn {

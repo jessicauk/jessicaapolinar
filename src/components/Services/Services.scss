@@ -1,0 +1,31 @@
+@import '../../style.scss';
+.services {
+  background: $color-6;
+  .white {
+    color: $color-5;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    &.-item{
+      padding: 20px 40px;
+      background: $color-3;
+      color:$color-5;
+      max-width: 350px;
+      margin: 20px;
+      text-align: center;
+      transition: 0.5s;
+      &:hover {
+        background: $color-3;
+      }
+      img {
+        max-width: 80px;
+        width: 100px;
+        height: 100px;
+        filter: invert(1)
+      }
+    }
+  }
+}
