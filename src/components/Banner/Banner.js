@@ -11,7 +11,7 @@ function Banner() {
   }
   return (
     <section className="banner">
-      <div className="banner-text">
+      <div className="section-heading">
         <h2>Hello, I'm <br/><span>Jessica Apolinar.</span></h2>
         <h3>I'm a Front End Web Developer.</h3>
         <a id="btn-about" href="#about" className="btn">About me</a>
