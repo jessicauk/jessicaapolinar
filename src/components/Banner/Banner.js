@@ -1,6 +1,6 @@
 import React from 'react';
 import './Banner.scss';
-import image from '../../../public/assets/images/me-2.png'
+import image from '../../../public/assets/images/me_png.png'
  
 function Banner() {
   const button = document.getElementById("btn-about");
