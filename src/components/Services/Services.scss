@@ -1,6 +1,18 @@
 @import '../../style.scss';
 .services {
   background: $color-6;
+  .heading {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+  }
+  &.-item {
+    .svg-icon {
+      fill: 'thistle'!important;
+      width: 150px!important;
+      height: 150px!important;
+    }
+  }
   .white {
     color: $color-5;
   }
@@ -20,12 +32,12 @@
       &:hover {
         background: $color-3;
       }
-      img {
+      /* img {
         max-width: 80px;
         width: 100px;
         height: 100px;
         filter: invert(1)
-      }
+      } */
     }
   }
 }
