@@ -7,6 +7,11 @@
     text-align: center;
   }
   &.-item {
+    transform: scale(1.5);
+    cursor: pointer;
+    &:hover {
+      background: $color-3;
+    }
     .svg-icon {
       fill: 'thistle'!important;
       width: 150px!important;
@@ -29,9 +34,6 @@
       margin: 20px;
       text-align: center;
       transition: 0.5s;
-      &:hover {
-        background: $color-3;
-      }
       /* img {
         max-width: 80px;
         width: 100px;
