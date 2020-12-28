@@ -1,6 +1,7 @@
 @import '../../style.scss';
 .about {
   color:$color-6;
+  padding-top: 80px;
   p {
     color:$color-6;
     text-align: justify;
@@ -14,7 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     .content-description {
       padding-right: 30px;
@@ -30,6 +31,11 @@
       max-width: 100%;
       /* width: 200px;
       height: 100px; */
+    }
+  }
+  @media screen and (min-width:900px) {
+    .content {
+      flex-direction: row;
     }
   }
 }

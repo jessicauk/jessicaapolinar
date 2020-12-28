@@ -6,9 +6,6 @@ import image from "../../../public/assets/images/coder.svg";
 function About() {
   return (
     <section className="about" id="about">
-      <div className="heading">
-        <h2>About me</h2>
-      </div>
       <div className="content">
         <div className="content-description content-width">
           <h3>I'm a Front End Web Developer.</h3>

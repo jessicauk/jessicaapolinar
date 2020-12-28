@@ -6,9 +6,6 @@ import image from '../../../public/assets/images/podcast.png'
 function Work() {
   return (
     <section className="work" id="work">
-      <div className="heading">
-        <h2>Work</h2>
-      </div>
       <div className="wrapper">
         <div className="card">
           <div className="layer" />

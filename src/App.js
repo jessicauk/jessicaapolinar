@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import About from './components/About/About'
 import Services from './components/Services/Services'
 import Work from './components/Work/Work'
+import Contact from './components/Contact/Contact'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Services />
       <Work />
+      <Contact />
     </Fragment>
   )
 }
