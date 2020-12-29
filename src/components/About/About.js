@@ -9,7 +9,9 @@ function About() {
       <div className="content">
         <div className="content-description content-width">
           <h3>I'm a Front End Web Developer.</h3>
-          <p>Computer Engineer, I have a 4+ years of solid experience in web application development with specialization in Frontend. Knowledgeable in Backend development on my initiative. I am attracted to the digital world, financial literacy, also editing and creating value content.</p>
+          <p>
+            Computer Engineer, I have 4+ years of solid experience in web application development with specialization in Frontend. I have knowledge in Backend development on my own initiative. I consider myself attracted to digital world as editing and creating value content.
+          </p>
         </div>
         <div className="content-width">
           <img src={image} className="image"/>

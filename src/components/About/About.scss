@@ -5,6 +5,8 @@
   p {
     color:$color-6;
     text-align: justify;
+    letter-spacing: 3px;
+    line-height: 2;
   }
   .heading {
     font-weight: 600;
@@ -18,7 +20,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     .content-description {
-      padding-right: 30px;
+      padding: 10px 30px 10px 30px;
     }
     h3{
       font-size: 24px;
@@ -26,6 +28,7 @@
     }
     .content-width {
       width: 100%;
+      padding: 10px 30px 10px 30px;
     }
     img {
       max-width: 100%;
