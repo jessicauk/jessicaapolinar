@@ -32,6 +32,9 @@
     li {
       position: relative;
       list-style: none;
+      &:hover {
+        border-bottom: 3px solid #4da8da;
+      }
       a {
         position: relative;
         display: inline-block;
