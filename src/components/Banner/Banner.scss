@@ -19,6 +19,11 @@
       margin: 0 auto;
     }
   }
+  @media screen and (min-width: 780px){
+    .banner {
+      flex-wrap: nowrap;
+    }
+  }
   .section-heading {
     font-size: 2rem;
     font-weight: 800;
