@@ -90,7 +90,7 @@
   } */
   .grid {
     display: grid;
-    width: 30rem;
+    width: 20rem;
     grid-gap: 6rem;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     align-items: start;
