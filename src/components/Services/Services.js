@@ -9,25 +9,27 @@ const devIconStyle = {
 function Services() {
   // console.log("iconList", iconList)
   return (
-    <section className="services" id="services">
-      <div className="content">
-        <div className="services-item">
-          <DevIcon className="svg-icon" style={devIconStyle} icon="javascript"/>
+    <div className="services" id="services">
+      <section className="wrapper">
+        <div className="content">
+          <div className="services-item">
+            <DevIcon className="svg-icon" style={devIconStyle} icon="javascript"/>
+          </div>
+          <div className="services-item">
+            <DevIcon className="svg-icon" style={devIconStyle} icon="html5"/>
+          </div>
+          <div className="services-item">
+            <DevIcon className="svg-icon" style={devIconStyle} icon="css3"/>
+          </div>
+          <div className="services-item">
+            <DevIcon className="svg-icon" style={devIconStyle} icon="react"/>
+          </div>
+          <div className="services-item">
+            <DevIcon className="svg-icon" style={devIconStyle} icon="python"/>
+          </div>
         </div>
-        <div className="services-item">
-          <DevIcon className="svg-icon" style={devIconStyle} icon="html5"/>
-        </div>
-        <div className="services-item">
-          <DevIcon className="svg-icon" style={devIconStyle} icon="css3"/>
-        </div>
-        <div className="services-item">
-          <DevIcon className="svg-icon" style={devIconStyle} icon="react"/>
-        </div>
-        <div className="services-item">
-          <DevIcon className="svg-icon" style={devIconStyle} icon="python"/>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
   )
 }
 
