@@ -2,21 +2,20 @@
 .banner {
   position: relative;
   min-height: 100vh;
-  /* background: url('../../../public/assets/images/background.jpg'); */
-  /* background-size: cover;
-  background-repeat: no-repeat; */
-  padding: 100px 10px 0px 10px;
   background-color: $color-1;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
+  background-image: url("../../../public/assets/images/banner.jpg");
+  background-size: cover;
   .banner-image {
-    margin: 10px auto;
+    display: flex;
+    place-items: center;
+    justify-content: center;
     .image {
-      width: 100%;
-      margin: 0 auto;
+      width: 300px;
     }
   }
   @media screen and (min-width: 780px){
@@ -27,7 +26,6 @@
     font-size: 2rem;
     font-weight: 800;
     line-height: 1.5em;
-    margin-bottom: 20px;
     h2  {
       background-image: url("https://media.giphy.com/media/H6uebdUt82gh9FSuqp/giphy.gif");
       // background-image: url("https://media.giphy.com/media/6oeRBKg7mwEZnSnYkn/giphy.gif");
@@ -36,6 +34,20 @@
       -webkit-background-clip: text;  
       background-clip: text;
       color: transparent;
+      margin-block: 50px 50px;
+      /* border: 2px solid white; */
     }
+    h3 {
+      margin-block: 50px 50px;
+      /* border: 2px solid darkorange */
+    }
+    a {
+      margin-block: 0px 50px;
+    }
+  }
+  &-content {
+    display: flex;
+    place-items: center;
+    /* border: 2px solid yellow */
   }
 }

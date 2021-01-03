@@ -50,7 +50,6 @@ body {
   background: $color-2;
   display: inline-block;
   color: $color-5;
-  margin-top: 20px;
   padding: 10px 30px;
   font-size: 1em;
   text-decoration:none;
@@ -60,4 +59,10 @@ body {
   &:hover{
     background-color: $color-3;
   }
+}
+
+.wrapper {
+  /* border: 2px solid red; */
+  max-width: 1024px;
+  margin-inline: auto;
 }
