@@ -1,20 +1,20 @@
 import React, { Fragment } from "react";
-import Banner from './components/Banner/Banner'
-import Header from './components/Header/Header'
-import About from './components/About/About'
-import Services from './components/Services/Services'
-import Work from './components/Work/Work'
-import Contact from './components/Contact/Contact'
+import LazyBanner from './components/Banner/LazyBanner'
+import LazyHeader from './components/Header/LazyHeader'
+import LazyAbout from './components/About/LazyAbout'
+import LazyServices from './components/Services/LazyServices'
+import LazyWork from './components/Work/LazyWork'
+import LazyContact from './components/Contact/LazyContact'
 
 function App() {
   return (
     <Fragment>
-      <Banner />
-      <Header />
-      <About />
-      <Services />
-      <Work />
-      <Contact />
+      <LazyBanner />
+      <LazyHeader />
+      <LazyAbout />
+      <LazyServices />
+      <LazyWork />
+      <LazyContact />
     </Fragment>
   )
 }
