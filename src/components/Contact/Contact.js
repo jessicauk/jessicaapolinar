@@ -46,7 +46,7 @@ function Contact() {
         </li>
       </ul>
       <p>Creted by inspiration 💟  </p>
-      <p>@Jessica Apolinar  2021 <small>v.0.0.1_draft</small></p>
+      <p>@Jessica Apolinar  2021 <small>v.0.0.1_draft1</small></p>
     </footer>
   )
 }

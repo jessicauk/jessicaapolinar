@@ -5,10 +5,9 @@ const webpack = require('webpack');
 const path = require("path");
 
 const PUBLIC_URL = process.env.PUBLIC_URL || '/';
-
-console.log("__dirname",__dirname )
-
+const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development';
 module.exports = {
+  mode,
   entry: { index: path.resolve(__dirname, "src", "index.js") },
   output: {
     path: path.resolve(__dirname, "build"),
@@ -29,11 +28,13 @@ module.exports = {
     rules: [
       {
         test: /\.(css|scss)$/i,
-        use: ["style-loader", "css-loader", "sass-loader"]
+        include: path.resolve(__dirname, 'src'),
+        use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
         test: /\.js$/,
-        exclude: /node_modules/,
+        // exclude: /node_modules/,
+        include: path.resolve(__dirname, 'src'),
         use: ["babel-loader"]
       },
       {
@@ -50,11 +51,10 @@ module.exports = {
       // `...`
     ],
     splitChunks: { 
-    // chunks: "all", 
-      chunks: 'async',
-      minSize: 20000,
+      chunks: "all", 
+      minSize: 0,
       minRemainingSize: 0,
-      maxSize: 0,
+      maxSize: 20000,
       minChunks: 1,
       maxAsyncRequests: 30,
       maxInitialRequests: 30,
@@ -73,5 +73,6 @@ module.exports = {
         }
       }
     }
-  }
+  },
+  // devtool: 'source-map'
 };
