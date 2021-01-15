@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Karla:weight@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
 
-$font: "Karla", sans-serif;
+$font: 'Sora', sans-serif;
 $primary-color: #3e6f9e;
 
 /* PALETA 4
@@ -13,6 +13,7 @@ $color-3: #4DA8DA;
 $color-4: #203647;
 $color-5: #EEFBFB;
 $color-6: rgb(2, 2, 2);
+$card-bckg-color: #efecee;
 
 
 * {
@@ -65,4 +66,5 @@ body {
   /* border: 2px solid red; */
   max-width: 1024px;
   margin-inline: auto;
+  margin: auto;
 }

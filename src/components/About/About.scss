@@ -1,16 +1,20 @@
 @import '../../style.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
 .about {
   color:$color-6;
   padding-top: 80px;
   p {
     color:$color-6;
     text-align: justify;
-    letter-spacing: 3px;
-    line-height: 2;
+    font-family: 'Sora', sans-serif;
+    font-weight: 100;
+    /* letter-spacing: 3px;
+    line-height: 2; */
   }
   .heading {
     font-weight: 600;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
   }
   .content {
@@ -19,12 +23,21 @@
     align-items: center;
     flex-direction: column;
     flex-wrap: nowrap;
+    background-color: $card-bckg-color;
     .content-description {
       padding: 10px 30px 10px 30px;
     }
     h3{
-      font-size: 24px;
+      font-size: 40px;
       margin-bottom: 10px;
+      font-family: 'Sora', sans-serif;
+      font-weight: 400;
+    }
+    h4 {
+      font-size: 25px;
+      font-weight: 400;
+      font-family: 'Sora', sans-serif;
+      margin: 10px 5px;
     }
     .content-width {
       width: 100%;

@@ -1,7 +1,8 @@
 @import '../../style.scss';
 .work {
   color:$color-6;
-  padding: 30px 10px 30px 10px;
+  // padding: 30px 10px 30px 10px;
+  padding: 80px 0px;
   /* .heading {
     font-weight: 600;
     font-size: 30px;
@@ -90,10 +91,11 @@
   } */
   .grid {
     display: grid;
-    width: 20rem;
+    // width: 20rem;
     grid-gap: 6rem;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    align-items: start;
+    // grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    // align-items: start;
     @media (max-width: 50em) {
       grid-gap: 3rem;
    }
@@ -119,6 +121,10 @@
     }
     &__content {
       padding: 3rem;
+      display: flex;
+      justify-content: center;
+      flex-flow: column;
+      text-align: center;
     }
     &__header{
       font-size: 3rem;
