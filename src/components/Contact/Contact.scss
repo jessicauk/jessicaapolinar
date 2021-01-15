@@ -1,11 +1,13 @@
 @import '../../style.scss';
 
 .contact {
-  height: 30vh;
+  max-height: 35vh;
   background-color: black;
   h2 {
     text-align: center;
     padding: 20px 0px 20px 0px;
+    font-weight: 400;
+    font-size: 30px;
   }
   .list-contact {
     display: flex;
@@ -21,5 +23,11 @@
         font-size: 65px;
       }
     }
+  }
+  .footer-text {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
   }
 }
