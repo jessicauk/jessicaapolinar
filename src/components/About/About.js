@@ -39,7 +39,7 @@ function About() {
             <ul>
               <li>First  I learn a lot from my mentors and people whom I'm inspired.📚👩‍🏫</li>
               <li>Next put into practice.🧠📔</li>
-              <li>Then fail.❌</li>
+              <li>After that fail.❌</li>
               <li>Then do it over.🔁</li>
               <li>Finally get succed.🏆</li>
             </ul>
