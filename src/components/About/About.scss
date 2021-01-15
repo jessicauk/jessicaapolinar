@@ -38,6 +38,7 @@
       font-weight: 400;
       font-family: 'Sora', sans-serif;
       margin: 10px 5px;
+      text-align: left;
     }
     .content-width {
       width: 100%;
@@ -47,6 +48,11 @@
       max-width: 100%;
       /* width: 200px;
       height: 100px; */
+    }
+    ul{
+      li {
+        font-weight: 100;
+      }
     }
   }
   @media screen and (min-width:900px) {

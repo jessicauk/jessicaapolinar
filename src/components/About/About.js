@@ -34,7 +34,6 @@ function About() {
             {/* <img src={image} className="image"/> */}
           </div>
           <div className="content-description content-width">
-            <p>
             <h4>To sum up my iterative personal learning process.</h4>
             <ul>
               <li>First  I learn a lot from my mentors and people whom I'm inspired.📚👩‍🏫</li>
@@ -43,7 +42,6 @@ function About() {
               <li>Then do it over.🔁</li>
               <li>Finally get succed.🏆</li>
             </ul>
-            </p>
             <br/>
             <p>
             The place where I'd love to join is somewhere I can growth technically and having personal development surrounded by mentors and craks. As well as where it let me feel free to express creativity. Moreover positive mindset.
@@ -58,7 +56,6 @@ function About() {
         <div className="content">
           <div className="content-description content-width">
             <h4>What I really love.</h4>
-            <p>
               <ul>
                 <li>👨‍👩‍👧‍👦🏡 My family is everything I need in life.</li>
                 <li>🏋🏊‍♀️ I extremely enjoy doing physical activities.</li>
@@ -69,7 +66,6 @@ function About() {
                 <li>🐯🌸 Does anyone else love animals and the nature? </li>
                 <li>👦👧 Last but not least I'm fond of doing networking.</li>
               </ul>
-            </p>
           </div>
           <div className="content-width">
             {/* <img src={image} className="image"/> */}
