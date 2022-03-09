@@ -13,6 +13,26 @@ function Work() {
           <div className="grid__item">
             <div className="card">
               <div className="card__figure">
+                <img className="card__img" src={sanfer} />
+              </div>
+              <div className="card__content">
+                <h1 className="card__header">Sanfer</h1>
+                <p className="card__text">Sanfer Website</p>
+                <a
+                  className="card__button btn"
+                  id=""
+                  href="https://www.sanfer.com.mx/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Show
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="grid__item">
+            <div className="card">
+              <div className="card__figure">
                 <img className="card__img" src={github} />
               </div>
               <div className="card__content">
@@ -42,26 +62,6 @@ function Work() {
                   className="card__button btn"
                   id=""
                   href="https://codepen.io/jessicaapolinar"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Show
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="grid__item">
-            <div className="card">
-              <div className="card__figure">
-                <img className="card__img" src={sanfer} />
-              </div>
-              <div className="card__content">
-                <h1 className="card__header">Sanfer</h1>
-                <p className="card__text">Sanfer Website</p>
-                <a
-                  className="card__button btn"
-                  id=""
-                  href="https://www.sanfer.com.mx/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

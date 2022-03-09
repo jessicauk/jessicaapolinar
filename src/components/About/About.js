@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.scss";
 
-import image from "../../../public/assets/images/jessica.svg";
+import image from "../../../public/assets/images/jessica3.png";
 import LazyServices from "../Services/LazyServices";
 
 function About() {
