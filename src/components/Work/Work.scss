@@ -1,101 +1,18 @@
 @import '../../style.scss';
 .work {
   color:$color-6;
-  // padding: 30px 10px 30px 10px;
-  padding: 80px 0px;
-  /* .heading {
-    font-weight: 600;
-    font-size: 30px;
-    text-align: center;
-  }
-  .wrapper {
+  padding: 80px 0 2em 0;
+  &__btn {
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
-    align-content: center;
-    width: 90%;
-    .card {
-      width: 280px;
-	    height: 360px;
-      border-radius: 15px;
-      background: white;
-      box-shadow: 0px 7px 10px rgba(0,0,0,.5);
-      position: relative;
-      margin: 2rem;
-      display: flex;
-      align-items: flex-end;
-      transition: 0.4s ease-out;
-      &:hover {
-        transform: translateY(20px);
-        &:before{
-          opacity: 1
-        }
-        .info {
-          opacity: 1;
-          transform: translateY(-10px);
-          margin: 10px;
-        }
-        .layer {
-          width: 100%;
-          height: 100%;
-          position: absolute;
-          z-index: 2;
-          top: 0;
-          bottom: 0;
-          background: rgb(1,1,1,0.3);
-          border-radius: 15px;
-        }
-      }
-      img { 
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        position: absolute;
-        top: 0;
-        left: 0;
-        border-radius: 15px;
-      }
-      .info {
-        position: relative;
-        z-index: 3;
-        color: white;
-        opacity: 0;
-        transform: translateY(30px);
-        transition: 0.5s;
-      }
-      h1 {
-        margin: 0px;
-      }
-      p {
-        letter-spacing: 1px;
-        font-size: 15px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-      }
-      .btn {
-        padding: 0.6rem;
-        background-color: $color-5;
-        font-size: 12px;
-        border-radius: 8px;
-        cursor: pointer;
-        border: none;
-        outline: none;
-        color: black;
-			  font-weight: bold;
-        &:hover {
-          background-color: $color-3;
-          transition: ease-in 0.3s;
-          color: white;
-        }
-      }
-    }
-  } */
+    justify-content: center;
+    margin-inline: 2em;
+    margin-block: 2em;
+  }
   .grid {
     display: grid;
-    // width: 20rem;
     grid-gap: 6rem;
-    // grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    // align-items: start;
     @media (max-width: 50em) {
       grid-gap: 3rem;
    }
@@ -113,11 +30,16 @@
    }
   }
   .card {
+    &__figure {
+      display: block;
+      width: 100%;
+      height: 20em;
+    }
     &__img {
       display: block;
       width: 100%;
-      height: 20rem;
-      object-fit: cover;
+      height: 100%;
+      object-fit: contain;
     }
     &__content {
       padding: 3rem;
