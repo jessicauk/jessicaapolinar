@@ -63,8 +63,11 @@ body {
 }
 
 .wrapper {
-  /* border: 2px solid red; */
   max-width: 1024px;
   margin-inline: auto;
   margin: auto;
+}
+
+.app__wrapper {
+  padding-block: 1em;
 }

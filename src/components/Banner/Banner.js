@@ -21,9 +21,9 @@ function Banner() {
             <a id="btn-about" href="#about" className="btn">About me</a>
           </div>
         </div>
-        {/* <div className="banner-image">
-          <img className="image" src={image} alt="me"/>
-        </div> */}
+        <div className="banner-image">
+          {/* <img className="image" src={process.env.PUBLIC_URL + '/assets/images/me_png.png'} alt="me"/> */}
+        </div>
       </section>
     </div>
   )
